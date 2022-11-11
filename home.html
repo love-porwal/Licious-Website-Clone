@@ -1,48 +1,535 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NATI RAM</title>
-    <link rel="stylesheet" href="home.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NATI RAM</title>
+  <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-    <div id="navBar">
-        <div>
-            <img width="20%"
-                src="https://previews.dropbox.com/p/thumb/ABtrgDIbovJsts0qjpAW_A3swb4M_uKJg2xTLMTH4TXeUMe2-DrlV3gsboihxdUMTFNotj-bDFxy9edt8kr11jzCIbNlRzatNzmB4GBJT5f3IbUR9zznCSbUHtnVy3DMeymJeQf4apUTTMnkUyu5NYAwgZu3iJKu0fte3iEfsyDAd40CKX7pFKoMQGxIwQXdKqv6WW8OIx-eCGw3M-337pEfN2f3aRwZVUKq8hQbZQGtveS_BDM20wXQENMpTxw_7r0whNu9HkG3QGlnhbQ0c1Cf0yv-5NZEoRK2tW1wmus6uNruEAHOKA0hcSPfufNCxw6zCNrSqnHm0cbB6SMxkGEgoQjjPdg9bTWI2XOlUHOkPEBt-ghuaed8MoYwglebG9s/p.png"
-                alt="Natiram">
-        </div>
-        <div>
-            <img class="location-icon" src="https://www.licious.in/img/rebranding/location_icon.svg"
-                alt="Location Icon">
-            Location
-        </div>
-        <div>
-            <input placeholder="Search for any delicious product">
-            <img class="search-logo" src="https://www.licious.in/img/rebranding/search_icon.svg">
-        </div>
-        <div>
-            <img src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg">
-            <span>Categories</span>
-        </div>
-        <div>
-            <img src="https://www.licious.in/img/rebranding/profile_icon.svg">
-            <span>Login</span>
-        </div>
-        <div>
-            <img src="https://www.licious.in/img/rebranding/cart_icon.svg">
-            <span>Cart</span>
-        </div>
+  <div id="navBar">
+    <div>
+      <img height="100px" width="auto"
+        src="https://previews.dropbox.com/p/thumb/ABtrgDIbovJsts0qjpAW_A3swb4M_uKJg2xTLMTH4TXeUMe2-DrlV3gsboihxdUMTFNotj-bDFxy9edt8kr11jzCIbNlRzatNzmB4GBJT5f3IbUR9zznCSbUHtnVy3DMeymJeQf4apUTTMnkUyu5NYAwgZu3iJKu0fte3iEfsyDAd40CKX7pFKoMQGxIwQXdKqv6WW8OIx-eCGw3M-337pEfN2f3aRwZVUKq8hQbZQGtveS_BDM20wXQENMpTxw_7r0whNu9HkG3QGlnhbQ0c1Cf0yv-5NZEoRK2tW1wmus6uNruEAHOKA0hcSPfufNCxw6zCNrSqnHm0cbB6SMxkGEgoQjjPdg9bTWI2XOlUHOkPEBt-ghuaed8MoYwglebG9s/p.png"
+        alt="Natiram">
     </div>
-    <div id="banner">
-        <div>
-            <img src="https://d2407na1z3fc0t.cloudfront.net/Slider/banner_63630e9d6ba0e" alt="banner">
-        </div>
+    <div>
+      <img src="https://www.licious.in/img/rebranding/location_icon.svg" alt="Location Icon">
+      Sheopur, M.P.
     </div>
+    <div>
+      <input id="bar" placeholder="Search for delicious product">
+      <img class="search-logo" src="https://www.licious.in/img/rebranding/search_icon.svg">
+    </div>
+    <div>
+      <img src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg">
+      <span>Categories</span>
+    </div>
+    <div>
+      <img src="https://www.licious.in/img/rebranding/profile_icon.svg">
+      <span>Login</span>
+    </div>
+    <div>
+      <img src="https://www.licious.in/img/rebranding/cart_icon.svg">
+      <span>Cart</span>
+    </div>
+  </div>
+  <div id="banner">
+    <div>
+      <img src="https://d2407na1z3fc0t.cloudfront.net/Slider/banner_63630e9d6ba0e" alt="banner">
+    </div>
+  </div>
+
+  <!-- shop by category -->
+
+  <div class="categories">
+    <div class="catogeries_top">
+      <h1>Shop by Categories <h1>
+          <h2>Freshest meats just for you</h2>
+
+    </div>
+    <div class="catogeries_bottom">
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/cb6e4eb8-6aec-7872-1638-0c2cf7970b71/original/Todays_Deals.png"
+            alt="img1"></div>
+        <div>
+          <p>Today's Deals</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/34466dbd-a515-edd1-3e99-05000f217cb6/original/Chicken_(2).png"
+            alt="img2"></div>
+        <div>
+          <p>Chicken</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/caac432f-545f-f03f-ce10-3b911916da70/original/FIsh_(1).png"
+            alt="img3"></div>
+        <div>
+          <p>Fish & Seafood</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/3a3d173d-5537-dafc-0be4-dec0791dcd24/original/MUT.png"
+            alt="img4"></div>
+        <div>
+          <p>Mutton</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/21653c3a-4d6d-da71-2432-6833b88e9629/original/RC.png"
+            alt="img5"></div>
+        <div>
+          <p>Ready to Cook</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/f4053965-f199-80a0-2551-d85d712574e2/original/Prawn_(2).png"
+            alt="img6"></div>
+        <div>
+          <p>Prawns</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/49a8dd0c-7254-0b89-b348-b57281c76f5a/original/Coldcuts_(2).png"
+            alt="img7"></div>
+        <div>
+          <p>Cold Cuts</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/d9a97969-ebd7-977c-e676-b343a18d7318/original/SPD.png"
+            alt="img8"></div>
+        <div>
+          <p>Spreads</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/1bd08fae-c971-390a-ce8a-6f6502f5bd0d/original/Eggs_(1).png"
+            alt="img9"></div>
+        <div>
+          <p>Eggs</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0b7ccd0f-0811-c38b-5420-0317c8006bda/original/Biryani_(2).png"
+            alt="img10"></div>
+        <div>
+          <p>Biryani & Kebab</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/69b72338-4180-2631-b175-04265b1e5c7a/original/Combo_(2).png"
+            alt="img11"></div>
+        <div>
+          <p>Combos</p>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/5329c23d-219d-c1aa-e044-d6d305da77f0/original/Gourmet.png"
+            alt="img12"></div>
+        <div>
+          <p>Gourmet</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- frame -->
+
+  <div id="Box-join">
+    <div>
+      <div>
+        <img width="7%"
+          src="https://previews.dropbox.com/p/thumb/ABtrgDIbovJsts0qjpAW_A3swb4M_uKJg2xTLMTH4TXeUMe2-DrlV3gsboihxdUMTFNotj-bDFxy9edt8kr11jzCIbNlRzatNzmB4GBJT5f3IbUR9zznCSbUHtnVy3DMeymJeQf4apUTTMnkUyu5NYAwgZu3iJKu0fte3iEfsyDAd40CKX7pFKoMQGxIwQXdKqv6WW8OIx-eCGw3M-337pEfN2f3aRwZVUKq8hQbZQGtveS_BDM20wXQENMpTxw_7r0whNu9HkG3QGlnhbQ0c1Cf0yv-5NZEoRK2tW1wmus6uNruEAHOKA0hcSPfufNCxw6zCNrSqnHm0cbB6SMxkGEgoQjjPdg9bTWI2XOlUHOkPEBt-ghuaed8MoYwglebG9s/p.png"
+          alt="Natiram">
+
+        <button>JOIN NOW</button>
+      </div>
+    </div>
+    <h3>Join MEATOPIA to get free delivery on all orders with cart value with more than Rs.99.</h3>
+  </div>
+  <!-- way the ways -->
+
+  <div id="Know_way">
+    <h1>Know the Licious way</h1>
+    <div>
+      <div>
+        <h2>Premium Produce</h2>
+      </div>
+      <div>
+        <h2>World-Class Central <br> Production Unit</h2>
+      </div>
+      <div>
+        <h2>150 Quality Checks</h2>
+      </div>
+      <div>
+        <h2>Delivered Fresh Everyday</h2>
+      </div>
+      <div>
+        <h2>Extraordinary Cooking</h2>
+      </div>
+    </div>
+    <h1>Discover How </h1>
+  </div>
+  <div id="discount">
+    <img
+      src="https://dao54xqhg9jfa.cloudfront.net/OMS-StaticBanner/4c895baf-28fb-2833-8d19-37d05c51d39c/original/static-bank-units-Sep-web_(11).jpg?format=webp"
+      alt="poster">
+  </div>
+
+  <!-- Best Sellers -->
+
+  <div id="Best_Sellers">
+    <h1>Best Sellers</h1>
+    <div id="Best_Sellers_div">
+
+      <div>
+        <div> <img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/ae59df99-e9af-16f1-c949-ea2a82713e5e/original/ChickenLC.jpg?format=webp"
+            alt="img1">
+        </div>
+        <div>
+          <h2>Chicken Curry Cut - Large Pieces</h2>
+          <h3> A mix of dark and white meat, our large Chicken Curry</h3>
+          <h3>500gms</h3>
+          <div class="MRP">
+            <div>
+              <h3>MRP:149</h3>
+            </div>
+            <div><button>ADD TO CART</button></div>
+          </div>
+          <div class="timing">
+            <img width="10%" src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="delivery">
+            <span>Tomorrow 6AM-8AM</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+
+        <div> <img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/35cfeb7e-f684-2d4c-a0b3-d1e259897ad3/original/kkkkkkkkkk.jpg?format=webp"
+            alt="img2">
+        </div>
+        <div>
+          <h2>Chicken Curry Cut-Small Pieces</h2>
+          <h3> Smaller pieces of chicken cook fasters</h3>
+          <h3>500gms</h3>
+          <div class="MRP">
+            <div>
+              <h3>MRP:169</h3>
+            </div>
+            <div><button>ADD TO CART</button></div>
+          </div>
+          <div class="timing">
+            <img width="10%" src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="delivery">
+            <span>Tomorrow 6AM-8AM</span>
+          </div>
+        </div>
+
+      </div>
+      <div>
+
+        <div> <img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/95be8234-af41-08cc-382b-17a1b345f931/original/Classic-Eggs---Pack-of-12-Hero-Shot.jpg?format=webp"
+            alt="img3">
+        </div>
+        <div>
+          <h2>Classic Eggs - Pack Of 12</h2>
+          <h3>Classic Eggs from Licious are obtained from hormone-free...</h3>
+          <h3>Pieces: 12</h3>
+          <div class="MRP">
+            <div>
+              <h3>MRP:147</h3>
+            </div>
+            <div><button>ADD TO CART</button></div>
+          </div>
+          <div class="timing">
+            <img width="10%" src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="delivery">
+            <span>Today 5PM-8PM</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bonless Cuts -->
+
+  <div id="bonless">
+    <h1>Bonless Cuts</h1>
+    <div class="bonless-cuts">
+      <div>
+        <div>
+          <div><img
+              src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_c47k6urcm1u/3/prod_image/1612256424.7332--2021-02-0214:30:24--738?format=webp"
+              alt="img1">
+          </div>
+          <div>
+            <h2>River Sol (Repti/Manthal) - Fillet</h2>
+            <h4>Mild tasting boneless fillets of freshwater Sol,</h4>
+            <p>250gms</p>
+            <div class="MRP">
+              <div>
+                <h3>MRP:689</h3>
+              </div>
+              <div><button>ADD TO CART</button></div>
+            </div>
+            <div class="timing">
+              <img width="10%" src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="delivery">
+              <span>Today 5PM-8PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div><img
+              src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/a86965d7-21be-82f1-eb66-9b699df5d4c3/original/p0_tile_images-10.jpg?format=webp"
+              alt="img3">
+          </div>
+          <div>
+            <h2>Basa - Fillet, Platinum Grade</h2>
+            <h4>The Licious Platinum Grade Basa Fillets are sliced lengthwise</h4>
+            <p>450gms</p>
+            <div class="MRP">
+              <div>
+                <h3>MRP:515</h3>
+              </div>
+              <div><button>ADD TO CART</button></div>
+            </div>
+            <div class="timing">
+              <img width="10%" src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="delivery">
+              <span>Today 5PM-8PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div><img
+              src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/beae774c-505f-fe13-36db-b7b1764ec0f3/original/l.jpg?format=webp"
+              alt="img2">
+          </div>
+          <div>
+            <h2>Basa - Boneless Cubes</h2>
+            <h4>soft texture of Indian Basa is a standout!</h4>
+            <p>400gms</p>
+            <div class="MRP">
+              <div>
+                <h3>MRP:449</h3>
+              </div>
+              <div><button>ADD TO CART</button></div>
+            </div>
+            <div class="timing">
+              <img width="10%" src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="delivery">
+              <span>Tomorrow 11AM-12PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Explore by category -->
+
+  <div class="categories">
+    <div class="catogeries_top">
+      <h1>Explore by catogeries</h1>
+    </div>
+    <div class="catogeries_bottom">
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/cb6e4eb8-6aec-7872-1638-0c2cf7970b71/original/Todays_Deals.png"
+            alt="img1"></div>
+        <div>
+          <h2>Today's Deals</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/34466dbd-a515-edd1-3e99-05000f217cb6/original/Chicken_(2).png"
+            alt="img2"></div>
+        <div>
+          <h2>Chicken</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/caac432f-545f-f03f-ce10-3b911916da70/original/FIsh_(1).png"
+            alt="img3"></div>
+        <div>
+          <h2>Fish & Seafood</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/3a3d173d-5537-dafc-0be4-dec0791dcd24/original/MUT.png"
+            alt="img4"></div>
+        <div>
+          <h2>Mutton</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/21653c3a-4d6d-da71-2432-6833b88e9629/original/RC.png"
+            alt="img5"></div>
+        <div>
+          <h2>Ready to Cook</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/f4053965-f199-80a0-2551-d85d712574e2/original/Prawn_(2).png"
+            alt="img6"></div>
+        <div>
+          <h2>Prawns</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/49a8dd0c-7254-0b89-b348-b57281c76f5a/original/Coldcuts_(2).png"
+            alt="img7"></div>
+        <div>
+          <h2>Cold Cuts</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/d9a97969-ebd7-977c-e676-b343a18d7318/original/SPD.png"
+            alt="img8"></div>
+        <div>
+          <h2>Spreads</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/1bd08fae-c971-390a-ce8a-6f6502f5bd0d/original/Eggs_(1).png"
+            alt="img9"></div>
+        <div>
+          <h2>Eggs</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0b7ccd0f-0811-c38b-5420-0317c8006bda/original/Biryani_(2).png"
+            alt="img10"></div>
+        <div>
+          <h2>Biryani & Kebab</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/69b72338-4180-2631-b175-04265b1e5c7a/original/Combo_(2).png"
+            alt="img11"></div>
+        <div>
+          <h2>Combos</h2>
+        </div>
+      </div>
+      <div>
+        <div><img
+            src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/5329c23d-219d-c1aa-e044-d6d305da77f0/original/Gourmet.png"
+            alt="img12"></div>
+        <div>
+          <h2>Gourmet</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Boneless cuts -->
+
+  <div id="bonless">
+    <h1>Bonless Cuts</h1>
+    <div class="bonless-cuts">
+      <div>
+        <div>
+          <div><img
+              src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_15cko17ou95/3/prod_display_image/1620095891.0803--2021-05-0408:08:11--738"
+              alt="img1">
+          </div>
+          <div>
+            <h2>Chunky Garlic Mustard Egg Spread (Single Serve)</h2>
+            <h4>Fresh Nakhre & fresh bone-in & boneless chicken cuts</h4>
+            <p>Pieces:1</p>
+            <div class="MRP">
+              <div>
+                <h3>MRP:26</h3>
+              </div>
+              <div><button>ADD TO CART</button></div>
+            </div>
+            <div class="timing">
+              <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="order1">
+              <span>Today in 90 min</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div><img
+              src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/fee95638-21fd-1706-4569-ed42430fd716/original/Sriracha-chicken-spreadsTIle-image.jpg?format=webp"
+              alt="img1">
+          </div>
+          <div>
+            <h2>Chicken Curry Cut-Small Pieces</h2>
+            <h4>Fresh Nakhre & fresh bone-in & boneless chicken cuts</h4>
+            <p>Pieces: 1</p>
+            <div class="MRP">
+              <div>
+                <h3>MRP:279</h3>
+              </div>
+              <div><button>ADD TO CART</button></div>
+            </div>
+            <div class="timing">
+              <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="order1">
+              <span>Today in 90 min</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div><img
+              src="https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5vxs7/3/prod_display_image/1634636006.872--2021-10-1915:03:26--1818?format=webp"
+              alt="img1">
+          </div>
+          <div>
+            <h2>Chunky Butter Chicken Spread (Single Serve)</h2>
+            <h4>Fresh Nakhre & fresh bone-in & boneless chicken cuts</h4>
+            <p>Pieces: 1</p>
+            <div class="MRP">
+              <div>
+                <h3>MRP:37</h3>
+              </div>
+              <div><button>ADD TO CART</button></div>
+            </div>
+            <div class="timing">
+              <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="order1">
+              <span>Today in 90 min</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
