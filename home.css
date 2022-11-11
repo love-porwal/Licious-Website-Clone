@@ -33,7 +33,7 @@
     margin: 25px 20%;
     border: 1px solid none;
     margin: auto;
-
+    color: #4a4a4a;
 }
 
 .catogeries_bottom {
@@ -41,27 +41,31 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     margin-bottom: 50px;
+    color: #4a4a4a;
 }
 
 .catogeries_bottom>div {
     text-align: center;
     margin: 10px 15px;
-
+    color: #4a4a4a;
 
 }
 
 .catogeries_bottom>div>div>p {
-    font-size: 20px
+    font-size: 20px;
+    color: #4a4a4a;
 }
 
 .catogeries_bottom>div>div:nth-child(1) {
 
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     border-radius: 5%;
+    color: #4a4a4a;
 }
 
 .catogeries_bottom>div>div:nth-child(1)>img {
     width: 100%;
+    color: #4a4a4a;
 }
 
 #Box-join {
@@ -72,6 +76,7 @@
     margin: 30px 25%;
     padding: 10px 20px;
     border-radius: 10px;
+    color: #4a4a4a;
 }
 
 #Box-join>div {
@@ -132,15 +137,15 @@
 #Best_Sellers {
     margin: 50px 10%;
     width: 80%;
- 
+    color: #4a4a4a;
 }
 
 
 #Best_Sellers_div {
     display: flex;
     justify-content: space-around;
-padding-bottom: 10px;
-
+    padding-bottom: 10px;
+    color: #4a4a4a;
 }
 
 #Best_Sellers_div>div {
@@ -149,12 +154,13 @@ padding-bottom: 10px;
     /* border: 5px solid red; */
     border-radius: 5%;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    color: #4a4a4a;
 }
 
 
 #Best_Sellers_div>div>div>img {
     width: 100%;
-    
+
 }
 
 #Best_Sellers_div>div>div:nth-child(2) {
@@ -176,23 +182,28 @@ padding-bottom: 10px;
     background-color: red;
     border-radius: 10px;
 }
+
 .timing {
     display: flex;
-       align-items: center;
+    align-items: center;
     justify-content: center;
-  
+    color: #4a4a4a;
     margin: auto;
 }
+
 .timing span {
     font-size: 25px;
- 
+    color: #4a4a4a;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5px 10px;
 }
 
 #bonless {
     margin: 2px 10%;
     width: 80%;
     margin-bottom: 0px;
-    /* border: 5px solid green; */
+    color: #4a4a4a;
 }
 
 
@@ -200,25 +211,108 @@ padding-bottom: 10px;
     display: flex;
     justify-content: space-around;
     padding: 10px 0px;
-   
-    /* border: 5px solid rgb(236, 117, 61); */
+    color: #4a4a4a;
+
 }
 
 .bonless-cuts>div {
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     margin-left: 10px;
-    /* border: 5px solid rgb(40, 149, 221); */
+    color: #4a4a4a;
     border-radius: 15px;
 }
 
 
 .bonless-cuts>div>div>div>img {
     width: 100%;
-    /* border: 5px solid rgb(224, 117, 238); */
 
+    color: #4a4a4a;
 }
 
 .bonless-cuts>div>div>div:nth-child(2) {
     padding: 5px 20px;
-    /* border: 5px solid rgb(53, 13, 15); */
+    color: #4a4a4a;
+    
+}
+
+.blogs {
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid brown; */
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+.blogs>div {
+    display: flex;
+
+}
+
+.blogs>div>div {
+    margin: 8px;
+    padding: 5px;
+    color: #4a4a4a;
+    /* border: 1px solid rgb(116, 42, 165); } */
+}
+
+.blogs>div>div>img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    color: #4a4a4a;
+}
+
+.blogs>div>div>div {
+    margin: 2px 5px;
+    color: #4a4a4a;
+}
+
+.banner2 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.banner2 img {
+    width: 100%;
+}
+
+.last {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid rgb(116, 42, 165); */
+    justify-content: space-between;
+    color: #4a4a4a;
+}
+.last > div{
+    text-align: left;
+    display: flex;
+    /* border: 1px solid rgb(42, 165, 138); */
+   
+    justify-content: space-between;
+    color: #4a4a4a;
+}
+.last > div >div {
+    text-align: left;
+    justify-content: space-between;
+    /* border: 1px solid rgb(218, 168, 32); */
+    margin: 10px 15px;
+    color: #4a4a4a;
+    /* padding: 5px 10px; */
+}
+.last > div >div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #4a4a4a;
+}
+.end_parts {
+text-align: center;
+font-size: large;
+color: #4a4a4a;
+}
+.end_parts span{
+    font-size: 20px;
+    color: #4a4a4a;
 }
