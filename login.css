@@ -1,0 +1,80 @@
+body {
+    background-image: url("https://www.licious.in/img/rebranding/user-login-new.jpg");
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    background-color: aliceblue;
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+div.container {
+    width: 900px;
+    height: 500px;
+    margin: 35px auto;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+div.main {
+
+    width: 300px;
+    height: 80%;
+    padding: 10px 50px 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: raleway;
+    float: left;
+    margin: 40px 25%;
+    background-color: aliceblue;
+}
+
+#username,
+#password {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+label {
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#submit {
+    font-size: 16px;
+    background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+    border: 1px solid #e5a900;
+    color: #4E4D4B;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline: none;
+}
+
+#submit:hover {
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+
+.note {
+    color: red;
+}
+
+form {
+    margin-bottom: 20px;
+}
