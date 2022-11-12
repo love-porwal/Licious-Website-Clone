@@ -4,18 +4,32 @@
     align-items: center;
     border: 1px solid none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 90px;
 }
 
 #navBar>div {
-    font-size: 30px;
+    font-size: 25px;
     border: 1px solid none;
+    cursor: pointer;
 
 }
 
+#logo:hover {
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
 #bar {
-    font-size: 22px;
+    font-size: 20px;
     border: none;
-    padding: 10px 5px;
+    padding: 7px 3px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
@@ -26,6 +40,7 @@
 #banner>div {
     margin-top: 5px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .categories {
@@ -61,6 +76,7 @@
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     border-radius: 5%;
     color: #4a4a4a;
+    cursor: pointer;
 }
 
 .catogeries_bottom>div>div:nth-child(1)>img {
@@ -82,6 +98,7 @@
 #Box-join>div {
     margin: 10px 20px;
     border-bottom: 1px solid black;
+
 }
 
 #Box-join>div>div {
@@ -155,6 +172,7 @@
     border-radius: 5%;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     color: #4a4a4a;
+    cursor: pointer;
 }
 
 
@@ -172,6 +190,7 @@
     justify-content: space-between;
     align-items: center;
 
+
 }
 
 .MRP>div>button {
@@ -181,7 +200,14 @@
     color: white;
     background-color: red;
     border-radius: 10px;
+    cursor: grabbing;
+
 }
+
+.MRP>div>button:hover {
+    background-color: green;
+}
+
 
 .timing {
     display: flex;
@@ -220,6 +246,7 @@
     margin-left: 10px;
     color: #4a4a4a;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 
@@ -232,7 +259,7 @@
 .bonless-cuts>div>div>div:nth-child(2) {
     padding: 5px 20px;
     color: #4a4a4a;
-    
+
 }
 
 .blogs {
@@ -245,6 +272,7 @@
 
 .blogs>div {
     display: flex;
+
 
 }
 
@@ -260,6 +288,7 @@
     height: 50vh;
     border-radius: 10px;
     color: #4a4a4a;
+    cursor: pointer;
 }
 
 .blogs>div>div>div {
@@ -275,6 +304,7 @@
 
 .banner2 img {
     width: 100%;
+    cursor: pointer;
 }
 
 .last {
@@ -285,34 +315,80 @@
     justify-content: space-between;
     color: #4a4a4a;
 }
-.last > div{
+
+.last>div {
     text-align: left;
     display: flex;
     /* border: 1px solid rgb(42, 165, 138); */
-   
+
     justify-content: space-between;
     color: #4a4a4a;
 }
-.last > div >div {
+
+.last>div>div {
     text-align: left;
     justify-content: space-between;
     /* border: 1px solid rgb(218, 168, 32); */
     margin: 10px 15px;
     color: #4a4a4a;
+    cursor: pointer;
     /* padding: 5px 10px; */
 }
-.last > div >div:nth-child(2) {
+
+.last>div>div:nth-child(2) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: #4a4a4a;
+
 }
+
 .end_parts {
-text-align: center;
-font-size: large;
-color: #4a4a4a;
+    text-align: center;
+    font-size: large;
+    color: #4a4a4a;
 }
-.end_parts span{
+
+.end_parts span {
     font-size: 20px;
     color: #4a4a4a;
+}
+
+/* category css */
+.cat_main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* border: 1px solid brown; */
+
+}
+
+.cat_main>div {
+    margin-left: 20px;
+    /* border: 1px solid rgb(140, 42, 165); */
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.cat_main>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.cat_main>div>img {
+    width: 8%;
+    margin-right: 0px;
+    align-items: center;
+    /* border: 1px solid salmon; */
+    cursor: pointer;
+}
+
+span {
+    font-size: 30px;
+    margin-left: 20px;
+    /* border: 1px solid rgb(54, 177, 60); */
+    align-items: baseline;
+    cursor: pointer;
 }
