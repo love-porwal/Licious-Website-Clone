@@ -1,1 +1,1 @@
-Nati-Ram [Licious Clone]
+The Licious website clone is an exact replica of the original platform, providing a delightful online meat and seafood shopping experience. With its enticing interface and high-quality offerings, users can enjoy the convenience of ordering fresh and tasty products delivered right to their doorstep.
